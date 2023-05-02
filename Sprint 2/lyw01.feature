@@ -5,6 +5,7 @@ Feature: Login con pin/clave
     Scenario: Ingreso al sistema con pin/clave
 
         Given que el usuario se encuentra en la pantalla de inicio de sesión
+        And el usuario ha ingresado su pin/clave
         When ingresa su pin/clave y presiona el botón "Ingresar"
         Then se redirige a la pantalla principal de la aplicación
 
